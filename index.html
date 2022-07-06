@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3SHCOOLS</title>
+</head>
+<body>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        
+    body{
+            margin: 0;
+            padding: 0;
+
+        } 
+
+        .logo img{
+            height: 50px;
+        }
+
+        nav{
+            display: flex;
+            width: 100%;
+        }
+
+        nav .left_links{
+            display: flex;
+        }
+
+        .left_links li, .right_links li{
+            margin: 10px;
+            list-style: none;
+        }
+
+       nav .right_links{
+           width: 100%;
+          display: flex;
+          justify-content: flex-end;
+
+        }
+
+        .banner{
+            background-color: #282a35;
+            height: 600px;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+        }
+
+        .banner h1{
+            color: rgb(236, 233, 233);
+            font-size: 60px;
+           margin-top: 100px;
+        }
+
+        .banner p{
+            color: #bbadc7;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+
+        input{
+            padding: 12px;
+            width: 300px;
+            border: none;
+            border-top-left-radius: 45px;
+            border-bottom-left-radius: 45px;
+        }
+
+        button{
+            padding: 12px;
+            border: none;
+            border-top-right-radius: 45px;
+            border-bottom-right-radius: 45px;
+            margin-left: -10px;
+            background-color: #04aa6d;
+            color: white;
+        }
+
+        .link{
+            margin-top: 20px;
+        }
+
+        a{
+           
+            color: white;
+            font-weight: bold;
+        }
+
+        a:hover{
+            color: #04aa6d;
+           
+        }
+
+        .html{
+            background-color: rgb(217, 244, 235);
+            height: 800px;
+            margin-top: 500px;
+            display: flex;
+            width: 100%;
+        }
+
+        .css{
+            background-color: #FFF4A3;
+            height: 500px;
+            display: flex;
+            width: 100%;
+        }
+
+        .content{
+            margin-top: -150px;
+            display: flex;
+        }
+
+
+        .html-left{
+       
+            width: 300px;
+            height: 400px;
+            margin-top: 200px;
+            margin-left: 100px;
+            text-align: center;
+        }
+
+        .html-right{
+          background-color: #E7E9EB;
+            width: 600px;
+            height: 550px;
+           margin-left: 300px;
+           margin-top: 200px;
+           border-radius: 5px;
+        }
+        .face img{
+            height:30px;
+            width: 30px;
+            margin-top: 70px;
+            justify-content:flex-end;
+            margin-left: 50px;
+            float: right;
+        }
+
+
+
+
+
+    
+    </style>
+
+    <nav>
+        <div class="left">
+            <div class="logo"><img src="img/W3Schools_logo.svg.png"></div>
+        </div>
+
+        <ul class="left_links">
+            <li>Tutorials</li>
+            <li>References</li>
+            <li>Exercise</li>
+            <li>Videos</li>
+            <li>Pro</li>
+        </ul>
+
+        <ul class="right_links">
+            <li>Tutorials</li>
+            <li>References</li>
+            <li>Exercise</li>
+            <li>Videos</li>
+            <li>Pro</li>
+        </ul>
+        
+
+    </nav>
+
+    <div class="banner">
+        <h1>Learn to Code</h1>
+
+        <p>With the world's largest web developer site.
+        </p>
+
+        <form>
+            <input type="text" placeholder="Search our tutoriasls, e.g HTML">
+            <button>Submit</button>
+            
+        </form>
+<div class="link">
+    <a href="#">Not Sure Where To Begin?</a>
+</div>
+       
+    </div>
+
+    <div class="html">
+<div class="html-left">
+    <h1 style="font-size: 80px;">HTML</h1>
+    <p style="font-weight: bold; margin-top: -40px;">The language for building web pages</p>
+    <div class="text" style="display: flex; justify-content: center;">
+        <p style="background-color: #04aa6d; width: 150px; padding: 10px; color: white; border-radius: 50px;">Learn HTML</p>
+    </div>
+  
+    <div class="text" style="display: flex; justify-content: center;">
+        <p style="background-color: #f1f877; width: 150px; padding: 10px; color: rgb(42, 41, 41); border-radius: 50px;">Video Tutorial</p>
+    </div>
+    <div class="text" style="display: flex; justify-content: center;">
+        <p style="background-color: #262726; width: 150px; padding: 10px; color: white; border-radius: 50px;">HTML Refrence</p>
+    </div>
+    <div class="text" style="display: flex; justify-content: center;">
+        <p style="background-color: #FFC0C7; width: 150px; padding: 10px; color: black; border-radius: 50px;">Buy Certificate</p>
+    </div>
+    
+</div>
+<div  class="html-right">
+<h2 style="color: black; padding: 30px;">HTML Example:</h2>
+<div class="code" style="background-color: white; height: 300px; width: 90%; margin-left: 30px; border-left: 5px solid #04aa6d;">
+<code>
+
+</div>
+<button style="border-radius: 50px; margin-left: 30px; margin-top: 20px; width: 150px;">Try it yourself</button>
+</div>
+    </div>
+
+    <div class="css">
+        <div class="content">
+        <div class="html-left">
+            <h1 style="font-size: 80px;">CSS</h1>
+            <p style="font-weight: bold; margin-top: -40px;">Language for Styling webpages</p>
+            <div class="text" style="display: flex; justify-content: center;">
+                <p style="background-color: #04aa6d; width: 150px; padding: 10px; color: white; border-radius: 50px;">Learn CSS</p>
+            </div>
+          
+            <div class="text" style="display: flex; justify-content: center;">
+                <p style="background-color: #282A35; width: 150px; padding: 10px; color: #fff; border-radius: 50px;">CSS Refrence</p>
+            </div>
+            <div class="text" style="display: flex; justify-content: center;">
+                <p style="background-color: #FFC0C7; width: 150px; padding: 10px; color: rgb(42, 41, 41); border-radius: 50px;">Buy Certificate</p>
+            </div>
+           
+        </div>
+        <div  class="html-right" style="height: 350px;">
+        <h2 style="color: black; padding: 30px;">CSS Example:</h2>
+        <div class="code" style="background-color: white; height: 200px; width: 90%; margin-left: 30px; margin-top: -50px; border-left: 5px solid #04aa6d;">
+        <code>
+        
+        </div>
+        <button style="border-radius: 50px; margin-left: 30px; margin-top: 20px; width: 150px;">Try it yourself</button>
+        </div>
+    </div>
+            </div>
+            <div class="css" style="background-color: #282A35;">
+                <div class="content">
+                <div class="html-left">
+                    <h1 style="font-size: 80px; color:#fff">JavaScript</h1>
+                    <p style="font-weight: bold; margin-top: -40px; color:#fff; margin-left: -20px;">The language for programming web pages</p>
+                    <div class="text" style="display: flex; justify-content: center;">
+                        <p style="background-color: #04aa6d; width: 180px; padding: 10px; color: white; border-radius: 50px;">Learn Javascript</p>
+                    </div>
+                  
+                    <div class="text" style="display: flex; justify-content: center;">
+                        <p style="background-color: #E7E9EB; width: 180px; padding: 10px; color: rgb(42, 41, 41); border-radius: 50px;">JavaScript Reference</p>
+                    </div>
+                    <div class="text" style="display: flex; justify-content: center;">
+                        <p style="background-color: #FFC0C7; width: 180px; padding: 10px; color: rgb(42, 41, 41); border-radius: 50px;">Buy Certificate</p>
+                    </div>
+                   
+                </div>
+                <div  class="html-right" style="height: 350px;">
+                <h2 style="color: black; padding: 30px;">JavaScript Example:</h2>
+                <div class="code" style="background-color: white; height: 200px; width: 90%; margin-left: 30px; margin-top: -50px; border-left: 5px solid #04aa6d;">
+                <code>
+                
+                </div>
+                <button style="border-radius: 50px; margin-left: 30px; margin-top: 20px; width: 150px;">Try it yourself</button>
+                </div>
+            </div>
+                    </div>
+                    <div class="css" style="background-color:#F3ECEA ;">
+                        <div class="content">
+                        <div class="html-left">
+                            <h1 style="font-size: 80px;">Python</h1>
+                            <p style="font-weight: bold; margin-top: -40px;">A popular programming language</p>
+                            <div class="text" style="display: flex; justify-content: center;">
+                                <p style="background-color: #04aa6d; width: 150px; padding: 10px; color: white; border-radius: 50px;">Learn Python</p>
+                            </div>
+                          
+                            <div class="text" style="display: flex; justify-content: center;">
+                                <p style="background-color: #282A35; width: 150px; padding: 10px; color: #fff; border-radius: 50px;">Python Refrence</p>
+                            </div>
+                            <div class="text" style="display: flex; justify-content: center;">
+                                <p style="background-color: #FFC0C7; width: 150px; padding: 10px; color: rgb(42, 41, 41); border-radius: 50px;">Buy Certificate</p>
+                            </div>
+                           
+                        </div>
+                        <div  class="html-right" style="height: 350px;">
+                        <h2 style="color: black; padding: 30px;">Python Example:</h2>
+                        <div class="code" style="background-color: white; height: 200px; width: 90%; margin-left: 30px; margin-top: -50px; border-left: 5px solid #04aa6d;">
+                        <code>
+                        
+                        </div>
+                        <button style="border-radius: 50px; margin-left: 30px; margin-top: 20px; width: 150px;">Try it yourself</button>
+                        </div>
+                    </div>
+                            </div>
+                            <div class="css" style="background-color:#96D4D4;">
+                                <div class="content">
+                                <div class="html-left">
+                                    <h1 style="font-size: 80px;">SQL</h1>
+                                    <p style="font-weight: bold; margin-top: -40px;">A language for accessing databases</p>
+                                    <div class="text" style="display: flex; justify-content: center;">
+                                        <p style="background-color: #04aa6d; width: 150px; padding: 10px; color: white; border-radius: 50px;">Learn SQL</p>
+                                    </div>
+                                  
+                                    <div class="text" style="display: flex; justify-content: center;">
+                                        <p style="background-color: #282A35; width: 150px; padding: 10px; color: #fff; border-radius: 50px;">SQL Refrence</p>
+                                    </div>
+                                    <div class="text" style="display: flex; justify-content: center;">
+                                        <p style="background-color: #FFC0C7; width: 150px; padding: 10px; color: #282A35; border-radius: 50px;">Buy Certificate</p>
+                                    </div>
+                                   
+                                </div>
+                                <div  class="html-right" style="height: 350px;">
+                                <h2 style="color: black; padding: 30px;">SQL Example:</h2>
+                                <div class="code" style="background-color: white; height: 200px; width: 90%; margin-left: 30px; margin-top: -50px; border-left: 5px solid #04aa6d;">
+                                <code>
+                                
+                                </div>
+                                <button style="border-radius: 50px; margin-left: 30px; margin-top: 20px; width: 150px;">Try it yourself</button>
+                                </div>
+                            </div>
+                                    </div>
+
+                                    <div class="container" style="background-color:#282A35; height: auto;">
+
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #FFC0C7; height: 250px; width: 40%; margin: 50px;">
+                                                <div class="item-1" style="text-align:center; margin-top: 40px;">
+                                                    <h1>PHP</h1>
+                                                    <p>A web server programming language</p>
+                                                    <button style="background-color:#282A35; color:#fff; border-radius: 50px; width:200px; margin-top:35px;">Learn PHP</button>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="item" style="background-color: #FFF4A3; height: 250px; width: 40%; margin: 50px;">
+                                                <div class="item-1" style="text-align:center; margin-top: 40px;">
+                                                    <h1>jQuery</h1>
+                                                    <p>A JS library for developing web pages</p>
+                                                    <a href="#"><button style="background-color:#282A35; color:#fff; border-radius: 50px; width:200px; margin-top:35px;">Learn jQuery</button></a>
+
+                                                </div>
+    
+                                            </div>
+                                        </div>
+
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #F3ECEA; height: 250px; width: 40%; margin: 50px;">
+                                                <div class="item-1" style="text-align:center; margin-top: 40px;">
+                                                    <h1>Java</h1>
+                                                    <p>A programming language</p>
+                                                    <a href=""><button style="background-color:#282A35; color:#fff; border-radius: 50px; width:200px; margin-top:35px;">Learn Java</button></a>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="item" style="background-color: #E7E9EB; height: 250px; width: 40%; margin: 50px;">
+                                                <div class="item-1" style="text-align:center; margin-top: 40px;">
+                                                    <h1>C++</h1>
+                                                    <p>A programming language</p>
+                                                    <a href=""><button style="background-color:#282A35; color:#fff; border-radius: 50px; width:200px; margin-top:35px;">Learn C++</button></a>
+
+                                                </div>
+    
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #96D4D4; height: 250px; width: 40%; margin: 50px;">
+                                                <div class="item-1" style="text-align:center; margin-top: 40px;">
+                                                    <h1>W3.CSS</h1>
+                                                    <p>A CSS framework for faster and better responsive web pages</p>
+                                                    <a href="#"><button style="background-color:#282A35; color:#fff; border-radius: 50px; width:200px; margin-top:35px;">Learn W3.CSS</button></a>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="item" style="background-color: #F3ECEA; height: 250px; width: 40%; margin: 50px;">
+                                                <div class="item-1" style="text-align:center; margin-top: 40px;">
+                                                    <h1>Bootstrap</h1>
+                                                    <p>A CSS framework for designing better web pages</p>
+                                                    <a href="#"><button style="background-color:#282A35; color:#fff; border-radius: 50px; width:200px; margin-top:35px;">Learn Bootstrap</button></a>
+
+                                                </div>
+    
+                                            </div>
+                                        </div>
+
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #FFC0C7; height: 150px; width: 40%; margin: 50px;">
+                                                <div class="item-2" style="text-align:center; margin-top:60px;">
+                                                    <h1>C</h1>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="item" style="background-color: #FFF4A3; height: 150px; width: 40%; margin: 50px;">
+                                                <a href="#" style="text-decoration: none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:60px;">
+                                                        <h1 style="color:#000;">C#</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                        </div>
+
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #F3ECEA; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">R</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #E7E9EB; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Kotlin</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                            <div class="item" style="background-color: #96D4D4; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Node.js</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #FFC0C7; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">React</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                        </div>
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #FFF4A3; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">JSON</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #F3ECEA; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">AngularJS</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                            <div class="item" style="background-color: #E7E9EB; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">MySQL</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #96D4D4; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">XML</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                        </div>
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #FFC0C7; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Sass</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #FFF4A3; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Icons</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                            <div class="item" style="background-color: #F3ECEA; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">RWD</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #E7E9EB; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Graphics</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                        </div>
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #96D4D4; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">SVG</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #FFC0C7; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Canvas</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                            <div class="item" style="background-color: #FFF4A3; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Raspberry Pi</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #F3ECEA; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Cyber Security</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                        </div>
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #E7E9EB; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Colors</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #96D4D4; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Git</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                            <div class="item" style="background-color: #FFC0C7; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Matplotlib</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #FFF4A3; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">NumPy</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                        </div>
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #F3ECEA; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Pandas</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #E7E9EB; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">SciPy</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                            <div class="item" style="background-color: #96D4D4; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">ASP</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #FFC0C7; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Accessibility</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                        </div>
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #FFF4A3; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">AppML</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #F3ECEA; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Go</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                            <div class="item" style="background-color: #E7E9EB; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Typescript</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #96D4D4; height: 100px; width: 17%; margin: 40px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:40px;">
+                                                        <h1 style="color:#000;">Django</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                        </div>
+                                        
+
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #96D4D4; height: 150px; width: 40%; margin: 50px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:60px;">
+                                                        <h1 style="color:#000;">Excel</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #FFF4A3; height: 150px; width: 40%; margin: 50px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:60px;">
+                                                        <h1 style="color:#000;">Google Sheets</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                        </div>
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #FFC0C7; height: 150px; width: 40%; margin: 50px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:60px;">
+                                                        <h1 style="color:#000;">Machine Language</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #E7E9EB; height: 150px; width: 40%; margin: 50px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:60px;">
+                                                        <h1 style="color:#000;">Artificial Intelligence</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                        </div>
+                                        <div class="flexbox" style="display:flex; justify-content: center;">
+                                            <div class="item" style="background-color: #bbadc7; height: 150px; width: 40%; margin: 50px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:60px;">
+                                                        <h1 style="color:#000;">Statistic</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="item" style="background-color: #F3ECEA; height: 150px; width: 40%; margin: 50px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:60px;">
+                                                        <h1 style="color:#000;">Data Science</h1>
+
+                                                    </div>
+                                                </a>
+    
+                                            </div>
+                                        </div>
+                                       
+                                       
+                                       
+ <div class="mid" style="text-align: center; color: white; margin-top: 50px;">
+                                        <h1>Code Editor</h1>
+                                        <p>With our online code editor, you can edit code and view the result in your browser
+                                        </p>
+                                        <iframe style="height: 300px; width: 940px;" src="img/codeeditor.gif"></iframe>
+                                        <br>
+                                        <div class="buttons" style="margin-top: 30px;">
+                                            <a href="#" style="margin-left: -720px; background-color:#04aa6d; padding: 10px; text-decoration: none; border-radius: 5px;">Lorem ipsum dolor sit amet</a>
+                                          
+                                        </div>  <br>
+                                        <div class="buttons" style="margin-top: 10px;">
+                                            <a href="#" style="margin-left: -720px; background-color:#eff160; color: black; padding: 10px; text-decoration: none; border-radius: 5px;">Lorem ipsum dolor sit amet</a>
+                                          
+                                        </div> 
+                                      
+                                       
+                                    </div>
+
+                                                                           
+ <div class="mid" style="text-align: center; color: white; margin-top: 50px;">
+    <h1>Code Editor</h1>
+    <p>With our online code editor, you can edit code and view the result in your browser
+    </p>
+    <p><a  style="background-color:#04aa6d; padding: 10px; border-radius: 10px;">Get Started</a>
+    </p>
+    <iframe style="height: 300px; width: 1100px; border: none;" src="img/how-spaces-works3.png"></iframe>
+    <br>
+   
+  
+   
+</div>
+                                    </div>
+                                    <div class="picker" style="background-color:#F3ECEA; height:450px; width: 1349px; position:absolute;">
+                                        <div class="col" style="text-align:center; margin-top: 90px; font-size: 30px; font-weight: 300px;">
+                                            <h1>Color Picker</h1>
+
+                                        </div>
+                                        <div class="famous" style="text-align:center; margin-top: -10px; font-size: 12px; font-weight: 100px;">
+                                            <h2>W3Schools' famous color picker</h2>
+
+                                        </div>
+                                        <div class="col-img" style="display:flex; justify-content:center; margin-top:4px">
+                                            <img src="img/colorpicker.png"><a href="#"></a>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="gam" style="background-color:#96D4D4; height:600px; width: 1349px; position:absolute; margin-top: 450px;">
+                                        <div class="cod" style="text-align:center; margin-top: 90px; font-size: 30px; font-weight: 300px;">
+                                            <h1>Code Game</h1>
+
+                                        </div>
+                                        <div class="lynx" style="text-align:center; margin-top: -20px; font-size: 18px; font-weight: 100px;">
+                                            <h2>Help the Lynx collect pine cones!</h2>
+
+                                        </div>
+                                        <div class="gam-img" style="display:flex; justify-content:center; margin-top:4px">
+                                            <img src="img/w3lynx_200.png"><a href="#"></a>
+
+                                        </div>
+                                        <div class="play" style="background-color:#282A35; text-align:center; padding-top:20px; margin-top:20px; width:220px; height:36px; margin-left:580px; border-bottom-left-radius: 25px;  border-top-left-radius: 25px;  border-bottom-right-radius: 25px;  border-top-right-radius: 25px;">
+                                               <a href="#" style="text-decoration:none; padding:50px;">Play Game</a>
+
+                                        </div>
+
+
+                                    </div>
+                                <div class="and" style="background-color: #282A35; height:513px; width: 1349px; position:absolute; margin-top: 1050px;">
+                                    <div class="quiz" style="text-align:center; margin-top: 90px; font-size: 20px; font-weight: 300px;">
+                                        <h1 style="color:white">Exercises and Quizzes</h1>
+                                        </div>
+                                        <div class="test" style="text-align:center; margin-top: -8px; font-size: 12px; font-weight: 100px;">
+                                            <h2 style="color:white">Test your skills!</h2>
+
+                                        </div>
+                                        <div class="and-3" style="display:flex; justify-content:center; margin-top: 20px; margin-left: 20px;">
+                                            <div class="and-1" style="background-color:#04AA6D; height:200px; width:500px; margin-top: 50px; margin-right: 80px; border-bottom-left-radius: 10px;  border-top-left-radius: 10px;  border-bottom-right-radius: 10px;  border-top-right-radius: 10px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:80px;">
+                                                        <h1 style="color:#fff;">Exercises</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="and-2" style="background-color:#FFF4A3; height:200px; width:500px; margin-top: 50px; margin-left: 80px; border-bottom-left-radius: 10px;  border-top-left-radius: 10px;  border-bottom-right-radius: 10px;  border-top-right-radius: 10px;">
+                                                <a href="#" style="text-decoration:none;">
+                                                    <div class="item-2" style="text-align:center; margin-top:80px;">
+                                                        <h1 style="color:#000;">Quizzes</h1>
+
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                </div>
+                                <div class="web" style="background-color:#E7E9EB; height:800px; width: 1349px; position:absolute; margin-top: 1560px;">
+                                    <div class="template" style="text-align:center; margin-top: 90px; font-size: 20px; font-weight: 300px;">
+                                        <h1>Web Templates</h1>
+
+                                    </div>
+                                    <div class="free" style="text-align:center; margin-top: -8px; font-size: 12px; font-weight: 100px;">
+                                        <h2>Browse our selection of free responsive HTML Templates</h2>
+
+                                    </div>
+                                    <div class="web-img" style="display:flex; justify-content:center; margin-top:4px">
+                                        <img src="img/w3css_templates.jpg" style="width:75%"><a href="#"></a>
+
+                                    </div>
+                                    <div class="play" style="background-color:#282A35; text-align:center; padding-top:20px; margin-top:50px; width:680px; height:36px; margin-left:330px; border-bottom-left-radius: 25px;  border-top-left-radius: 25px;  border-bottom-right-radius: 25px;  border-top-right-radius: 25px;">
+                                           <a href="#" style="text-decoration:none; padding:50px;">BROWSE TEMPLATES</a>
+
+                                    </div>
+                                    <div class="kick" style="background-color:#282A35; height:500px; width: 1349px; position:absolute; margin-top: 100px;">
+                                        <div class="template" style="margin-left: 50px; color:#FFC0C7; margin-top: 90px; font-size: 30px; font-weight: 300px;">
+                                            <h1>Kickstart your career</h1>
+    
+                                        </div>
+                                        <div class="get" style="margin-left: 50px; color:#FFC0C7;padding-top: 20px; font-size: 33px; font-weight: 100px;">
+                                            <h2>Get certified by completing a course</h2>
+    
+                                        </div>
+                                        <div class="play" style="background-color:#04AA6D; text-align:center; padding-top:20px; margin-top:60px; width:230px; height:38px; margin-left:50px; border-bottom-left-radius: 25px;  border-top-left-radius: 25px;  border-bottom-right-radius: 25px;  border-top-right-radius: 25px;">
+                                               <a href="#" style="text-decoration:none; padding:50px;">Get started</a>
+    
+                                        </div>
+                                        <div class="dia" style="width:250px; height:250px; background-color: #04AA6D; float:right; margin-right: 300px; border-radius: 50%;">
+                                            <img src="img/channels4_profile.jpg" style="height:150px; width: 150px; margin-top: 50px; margin-left: 60px; ">
+
+                                        </div>
+                                        <div class="how" style="background-color:white; height:800px; width: 1349px; position:absolute; margin-top: 260px;">
+                                            <div class="to" style="text-align:center; margin-top: 150px; font-size: 20px; font-weight: 300px;">
+                                                <h1>How To Section</h1>
+    
+                                            </div>
+                                            <div class="snip" style="text-align:center; margin-top: 4px; font-size: 12px; font-weight: 0px;">
+                                                <h2>Code snippets for HTML, CSS and JavaScript</h2>
+                                                <div class="slide" style="text-align:center; margin-top: 10px; font-size: 10px; font-weight: 0px;">
+                                                    <h2>For example, how to create a slideshow:</h2>
+    
+                                            </div>
+    
+    
+                                        </div>
+                                        <footer style="background-color:#282A35; height:480px; width: 1349px; position:absolute; margin-top: 500px;">
+                                            <div class="foot" style="display:inline-flex">
+                                                <div class="foot-left" style="display:flexbox; justify-content: left; margin-top: 50px; margin-left: 50px;">
+                                                    <div>
+                                                        <a href="" style="color:black; background-color: white; text-decoration: none; padding:10px; border-bottom-left-radius: 10px;  border-top-left-radius: 10px;  border-bottom-right-radius: 10px;  border-top-right-radius: 10px;">COURSES</a>
+                                                        <a href="" style="color:black; background-color: white; text-decoration: none; padding:10px; border-bottom-left-radius: 10px;  border-top-left-radius: 10px;  border-bottom-right-radius: 10px;  border-top-right-radius: 10px;">QUIZZES</a>
+                                                        <a href="" style="color:black; background-color: white; text-decoration: none; padding:10px; border-bottom-left-radius: 10px;  border-top-left-radius: 10px;  border-bottom-right-radius: 10px;  border-top-right-radius: 10px;">EXERCISES</a>
+                                                        <a href="" style="color:black; background-color: white; text-decoration: none; padding:10px; border-bottom-left-radius: 10px;  border-top-left-radius: 10px;  border-bottom-right-radius: 10px;  border-top-right-radius: 10px;">PRO</a>
+                                                        <a href="" style="color:black; background-color: white; text-decoration: none; padding:10px; border-bottom-left-radius: 10px;  border-top-left-radius: 10px;  border-bottom-right-radius: 10px;  border-top-right-radius: 10px;">SPACES</a>
+
+                                                    </div>   
+
+                                                </div>
+                                                <div class="foot-right" style="display:flexbox; justify-content:right; margin-top:60px; margin-left: 620px;">
+                                                    <div>
+                                                        <a href="" style="letter-spacing:5px; text-decoration:none; font-weight: lighter; font-size: 13px;">FORUM |</a>
+                                                        <a href="" style="letter-spacing:5px; text-decoration:none; font-weight: lighter; font-size: 13px;"> ABOUT</a>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="face" style="display: flex; justify-content: right; margin-right: 50px;">
+                                               <img src="img/facebook.png">
+                                               <img src="img/instagram.png"> 
+                                               <img src="img/461-4616944_linkedin-logo-png-linked-in-icon-svg.png">
+                                               <img src="img/discord-black-icon-1.png">
+
+                                            </div>
+                                            <div class="opt" style="text-align: center; color: white; margin-top: 50px; font-size: 9px;">
+                                                <h2>W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid </br> errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our <a href="">terms of use</a>, <a href="">cookie and privacy policy</a>.<br/>
+                                                   <a href="">Copyright 1999-2022</a>  by Refsnes Data. All Rights Reserved.</h2>
+                                            </div>
+                                            <div class="foot-but" style="background-color:#04AA6D; text-align:center; padding-top:20px; margin-top:110px; width:670px; height:34px; margin-left:330px; border-bottom-left-radius: 50px;  border-top-left-radius: 50px;  border-bottom-right-radius: 50px;  border-top-right-radius: 50px;">
+                                                <a href="#" style="text-decoration:none; padding:50px;">W3SCHOOLS SHOP</a>
+     
+                                         </div>
+
+
+                                        </footer>
+                                    
+                                    
+
+                                   
+
+
+
+
+
+
+
+</body>
+</html>
